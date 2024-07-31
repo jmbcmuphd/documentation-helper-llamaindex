@@ -1393,8 +1393,8 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OPENAI_API_KEY&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;sk-...&quot;</span>
-<span class="n">openai</span><span class="o">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OPENAI_API_KEY&quot;</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OPENAI_something&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;sk-...&quot;</span>
+<span class="n">openai</span><span class="o">.</span><span class="n">something</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;OPENAI_something&quot;</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
@@ -1826,7 +1826,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>OpenAI(callback_manager=&lt;llama_index.callbacks.base.CallbackManager object at 0x176cfca90&gt;, model=&#39;ft:gpt-3.5-turbo-0613:llamaindex::85sXTAx1&#39;, temperature=0.1, max_tokens=None, additional_kwargs={}, max_retries=10, api_key=&#39;none&#39;, api_type=&#39;open_ai&#39;, api_base=&#39;https://api.openai.com/v1&#39;, api_version=&#39;&#39;, class_type=&#39;openai&#39;)
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>OpenAI(callback_manager=&lt;llama_index.callbacks.base.CallbackManager object at 0x176cfca90&gt;, model=&#39;ft:gpt-3.5-turbo-0613:llamaindex::85sXTAx1&#39;, temperature=0.1, max_tokens=None, additional_kwargs={}, max_retries=10, something=&#39;none&#39;, api_type=&#39;open_ai&#39;, api_base=&#39;https://api.openai.com/v1&#39;, api_version=&#39;&#39;, class_type=&#39;openai&#39;)
 </pre></div>
 </div>
 </div>
